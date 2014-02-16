@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Humbly Design Studio</title>
+		
+		<meta htp-equiv="Content-Type" context="text/html; charset=utf-8">
+		<meta name="viewport"content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+		
+		<link href="css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="css/unsemantic.css" rel="stylesheet" type="text/css">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="css/secondary.css" rel="stylesheet" type="text/css">
+		<link href="css/devices.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 800px)" />
+		<link href="http://fonts.googleapis.com/css?family=Alfa+Slab+One|Signika+Negative:300,400,600,700|Lily+Script+One" rel="stylesheet" type="text/css">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	</head>
+	
+	<body>
+		<header>
+			<div class="grid-container">
+				<div class="grid-100">
+					<a class="logo" href="index.html">
+						<img src="images/logo.png" alt="Humbly Design Studio Logo" width="124" height="80" />
+						<span>Humbly Design Studio</span>
+					</a>
+					<nav>
+						<button id="mobile-menu">
+							<i class="fa fa-bars fa-3x"></i>
+						</button>
+						<ul>
+							<li><a href="index.html"><div></div>Home</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="main-content">
+				<div class="grid-container">
+					<div class="grid-100">
+						<h2>Contact</h2>
+						<div class="clear"></div>
+						<form action="mail.php" method="post">
+							<fieldset>
+								<label for="contact-name"><i class="fa fa-user fa-2x"></i> Name</label>
+								<input id="contact-name" name="contact-name" type="textbox" />
+								<label for="contact-email"><i class="fa fa-envelope fa-2x"></i> Email</label>
+								<input id="contact-email" name="contact-email" type="textbox" />
+								<label for="contact-message"><i class="fa fa-pencil fa-2x"></i> Message</label>
+								<textarea id="contact-message" name="contact-message" rows="15"></textarea>
+								<button type="submit" name="contact-submit" class="action"> 
+									Send Message
+								</button>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="top-divider"></div>
+			<div class="grid-container">
+				<div class="copyright">
+					&COPY; <span>DynamicDate</span> Humbly Design Studio. All rights reserved.
+				</div>
+			</div>
+		</footer>
+		
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="script/effects.js"></script>
+	</body>
+</html>
